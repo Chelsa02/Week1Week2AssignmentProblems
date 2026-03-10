@@ -15,7 +15,6 @@ public class SocialMediaUsernameAvailabilityChecker {
             System.out.println("Username already taken.");
             return;
         }
-
         usernameMap.put(username, userId);
         System.out.println(username + " registered successfully.");
     }
